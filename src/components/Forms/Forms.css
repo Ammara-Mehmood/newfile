@@ -1,0 +1,116 @@
+
+.Background {
+    background-color: #008180;
+    width: 95.8%;
+    min-height: 100vh;
+    color: white;
+    padding: 35px;
+    display: flex;
+    justify-content: center;
+  }
+  input[type="text"],
+  input[type="Date"],
+  input[type="number"],
+  input[type="datetime-local"],
+  input[type="email"],
+  input[type="password"],
+  input[type="phone"] {
+    height: 40px;
+    width: 239px;
+    border: none;
+    border-radius: 7px;
+    padding-left: 7px;
+    margin-top: 15px;;
+  }
+  .province > select {
+    height: 40px;
+    width: 248px;
+    border: none;
+    border-radius: 7px;
+    padding-left: 10px;
+  }
+  .games > select {
+    height: 40px;
+    width: 239px;
+    border: none;
+    border-radius: 7px;
+    padding-left: 10px;
+  }
+  .File {
+    float: left;
+  }
+  input#fileInput {
+    display: none;
+  }
+  input#fileInput + label {
+    border: 3px solid black;
+    text-align: center;
+    margin-left: 42px;
+    margin-top: 45px;
+    padding: 104px;
+    cursor: pointer;
+  }
+  .email,
+  .games,
+  .dob,
+  .confirmPassword {
+    float: left;
+    margin-left: 104px;
+  }
+  .MobileAndEmail,
+  .introAndFile,
+  .provinceAndState,
+  .QualAndDOB,
+  .PasswordAndConfirm {
+    display: flex;
+  }
+  .intro,
+  .mobile,
+  .province {
+    float: left;
+  }
+  #games {
+    width: 300px;
+    margin-left: 10px;
+  }
+  
+  .religionDiv {
+    margin-top: 88px;
+  }
+  .religion,
+  .lang,
+  .gender {
+    border: 3px solid black;
+    padding: 10px;
+    border-top: none;
+    border-radius: 7px;
+    display: flex;
+    gap: 5px;
+  }
+  .favLanguages,
+  .description,
+  .genderDiv,
+  .submitData {
+    margin-top: 16px;
+  }
+  textarea {
+    width: 100%;
+    height: 120px;
+    margin-top: 15px;
+    border: 0.5px solid black;
+  }
+  .submit-btn {
+    width: 18%;
+    margin-left: 0px;
+    background-color: #488b4d;
+    height: 50px;
+    border-radius: 7px;
+    margin-left: 233px;
+  }
+  .input-conPass {
+    margin-top: -40px;
+  }
+  .imgshow{
+    height: 200px;
+    width: 200px;
+  }
