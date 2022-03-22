@@ -242,7 +242,7 @@ export default function Forms() {
                 FormData.cnic === "" && choice === true
                   ? { display: "block", marginTop: "10px", color: "red" }
                   : { display: "none" }
-              }console.log("onchange is triggered")
+              }>
             <span
               style={
                 FormData.CnicIssuance === "" && choice === true
@@ -250,6 +250,7 @@ export default function Forms() {
                   : { display: "none" }
               }
             >
+            </span>
               {errorState.CnicIssuance}
             </span>
           </div>
